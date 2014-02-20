@@ -1,0 +1,25 @@
+{
+  "name": "forrst",
+  "version": "0.0.0",
+  "description": "forrst ======",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JiayangZZZ/forrst.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JiayangZZZ/forrst/issues"
+  },
+  "homepage": "https://github.com/JiayangZZZ/forrst",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-compass": "^0.7.2"
+  }
+}
