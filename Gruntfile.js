@@ -6,7 +6,6 @@ module.exports = function(grunt) {
         options: {              // Target options
           sassDir : 'public/styles',
           cssDir : 'public/styles/build',
-          debugInfo : true,
           noLineComments : true
         }
       }
