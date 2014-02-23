@@ -33,6 +33,8 @@
 .landing-promos {
   margin-bottom: 30px;
   overflow: hidden;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .promo {
@@ -80,20 +82,61 @@
 
 .row-sub-title {
   font-size: 0.7em;
-  float: left;
 }
 
 .three-collumn-promo {
   overflow: hidden;
   float: left;
   width: 30%;
-  margin-left: 20px;
-  margin-right: 10px;
+  margin-left: 16px;
+  margin-right: 16px;
   text-align: left;
   background: white;
 }
 
-.three-collum-promo-title {
-  font-size: 1.2em;
+.three-collumn-promo-image {
+  overflow: hidden;
+  img {
+    height: 260px;
+    width: 368px;
+  }
 }
 
+.three-collumn-promo-text {
+  padding: 25px;
+}
+
+.three-collumn-promo-title {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.three-collumn-promo-content {
+  font-size: normal;
+}
+
+.top-footer {
+  padding: 40px;
+  background: #3b7140;
+}
+
+.link-blockers {
+  margin-left: 40px;
+  margin-right: 40px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.link-info {
+  width: 23%;
+  margin-top: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+
+.bottom-footer {
+  background: #333;
+  color: #666;
+  padding-top: 24px;
+  padding-bottom: 10px;
+}
