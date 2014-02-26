@@ -30,24 +30,31 @@
   font-size:  1.15em;
 }
 
+.landing-promos-wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
 .landing-promos {
   margin-bottom: 30px;
   overflow: hidden;
   margin-left: 40px;
   margin-right: 40px;
+  text-align: center;
 }
 
 .promo {
   width: 23%;
   text-align: center;
-  margin-left: 20px;
-  margin-bottom: 20px;
   float: left;
-  @media(max-width: 1024px) {
-    width: 40%;
+  margin: 10px 10px;
+  @media(max-width: 1077px) {
+    width: 45%;
   }
   @media(max-width: 636px) {
     width: 100%;
+    margin: 0;
   }
 }
 
@@ -98,7 +105,6 @@
   overflow: hidden;
   img {
     height: 260px;
-    width: 368px;
   }
 }
 
